@@ -1,0 +1,8 @@
+body{
+    margin:0;
+    padding:0;
+}
+.banner{
+    background: url('img/parallax-imagem1.png');
+    height: 620px;
+}
