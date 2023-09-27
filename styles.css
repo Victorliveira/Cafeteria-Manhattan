@@ -3,6 +3,6 @@ body{
     padding:0;
 }
 .banner{
-    background: url('img/parallax-imagem1.png');
+    background: url('img/parallax-imagem1.png') no-repeat cover;
     height: 620px;
 }
