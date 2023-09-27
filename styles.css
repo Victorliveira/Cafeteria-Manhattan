@@ -3,6 +3,13 @@ body{
     padding:0;
 }
 .banner{
-    background: url('img/parallax-imagem1.png') no-repeat cover fixed;
+    background: url('img/parallax-imagem1.png') no-repeat fixed;
     height: 620px;
+    width: 100%;
+}
+.banner h1{
+    height:0;
+    text-align: center;
+    color:white;
+    padding-top:35px;
 }
