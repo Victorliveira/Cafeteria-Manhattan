@@ -2,14 +2,53 @@ body{
     margin:0;
     padding:0;
 }
+.topo{
+    background-color: rgb(141, 64, 13);
+    margin:0;
+    height:80px;
+    position:relative;
+}
+.img-topo{
+    position:absolute;
+    left:150px;
+    width:90px;
+}
+.topo ul{
+    margin:0;
+    display: inline;
+    position:absolute;
+    right:20%;
+    top:40%;
+}
+.topo li{
+    margin:0 10px;
+    display:inline;
+}
+.topo a{
+    font-size:17px;
+    font-weight:bold;
+    text-decoration: none;
+    box-shadow: 5px 5px 10px rgb(218, 198, 18);
+    color:rgb(218, 198, 18);
+}
 .banner{
     background: url('img/parallax-imagem1.png') no-repeat fixed;
-    height: 620px;
+    height: 900px;
     width: 100%;
+    position:relative;
 }
 .banner h1{
-    height:0;
+    font-size:60px;
+    margin:0 auto;
     text-align: center;
     color:white;
     padding-top:35px;
+    position:absolute;
+    top:50%;
+    right:30%;
+
+}
+.limita-largura{
+    width:70%;
+    margin:0 auto;
 }
