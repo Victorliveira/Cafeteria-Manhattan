@@ -1,3 +1,7 @@
+html{
+    scroll-behavior:smooth;
+    scrool-padding-top: 1.25rem;
+}
 body{
     margin:0;
     padding:0;
