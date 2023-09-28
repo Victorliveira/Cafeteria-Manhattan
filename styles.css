@@ -3,10 +3,19 @@ body{
     padding:0;
 }
 .topo{
-    background-color: rgb(141, 64, 13);
+    background-color: #604829;
     margin:0;
     height:80px;
     position:relative;
+}
+.banner, .parallax-1, .parallax-2, .parallax-3, .parallax-4{
+    background:no-repeat fixed;
+    background-size:cover;
+    width:100%;
+    position:relative;
+}
+.parallax-1, .parallax-2, .parallax-3, .parallax-4{
+    height:400px;
 }
 .img-topo{
     position:absolute;
@@ -28,20 +37,18 @@ body{
     font-size:17px;
     font-weight:bold;
     text-decoration: none;
-    box-shadow: 5px 5px 10px rgb(218, 198, 18);
-    color:rgb(218, 198, 18);
+    box-shadow: 5px 5px 10px #c4a47c;
+    color:#c4a47c;
 }
 .banner{
-    background: url('img/parallax-imagem1.png') no-repeat fixed;
+    background-image:url('img/parallax-imagem1.png');
     height: 900px;
-    width: 100%;
-    position:relative;
 }
 .banner h1{
     font-size:60px;
     margin:0 auto;
     text-align: center;
-    color:white;
+    color:#fff;
     padding-top:35px;
     position:absolute;
     top:50%;
@@ -49,6 +56,52 @@ body{
 
 }
 .limita-largura{
-    width:70%;
+    background-color: #fff;
+    width:50%;
+    margin:40px auto;
+}
+.limita-largura p{
+    color:#666;
+    line-height:25px;
+    font-size:15px;
+    font-family:cursive;
+    text-align:center;
+}
+.limita-largura h2{
+    text-align: center;
+    color:#c4a47c;
+}
+.parallax-1{
+    background-image:url(img/parallax-imagem2.jpg);
+}
+.parallax-2{
+    background-image:url(img/parallax-imagem3.jpg)
+}
+.parallax-3{
+    background-image: url(img/parallax-imagem4.png);
+    height:900px;
+}
+.parallax-4{
+    background-image:url(img/cafeteria.jpg);
+    height:800px;
+}
+.comment-parallax{
+    background-color:#604829;
+    color:#fff;
+    position:absolute;
+    font-size:24px;
+    padding:15px;
+    border-radius:10px;
+}
+.div-endereço{
+    text-align: left;
+    width:20%;
     margin:0 auto;
+}
+.span-largura{
+    width:25%;
+    margin:0 auto;
+    position:relative;
+    top:40%;
+    left:3%;
 }
