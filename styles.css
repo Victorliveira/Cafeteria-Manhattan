@@ -1,6 +1,6 @@
 html{
-    scroll-behavior:smooth;
-    scrool-padding-top: 1.25rem;
+    scroll-behavior: smooth;
+    scroll-padding-top: 1.25rem;
 }
 body{
     margin:0;
@@ -87,7 +87,7 @@ body{
 }
 .parallax-4{
     background-image:url(img/cafeteria.jpg);
-    height:800px;
+    height:900px;
 }
 .comment-parallax{
     background-color:#604829;
@@ -109,3 +109,43 @@ body{
     top:40%;
     left:3%;
 }
+#Horários{
+    color:white;
+    position:relative;
+}
+#Horários table{
+    margin:0 auto;
+    font-size:25px;
+    font-family:cursive;
+}
+#Horários caption{
+    margin-top: 180px;
+}
+.separação{
+    padding-bottom: 15px;
+}
+.seta-para-cima{
+    position:absolute;
+    bottom:0;
+    right:15px;
+    width:50px;
+}
+.rodape{
+    background-color: black;
+    color:white;
+    margin:0 auto;
+    text-align:center;
+    height:100px;
+}
+.rodape h3{
+    padding-top:30px;
+    margin:0;
+    font-size:17px;
+}
+.rodape p{
+    margin:5px;
+}
+.desenvolvedor{
+    color:#c4a47c
+}
+
