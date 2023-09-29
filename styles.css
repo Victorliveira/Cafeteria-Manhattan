@@ -92,15 +92,33 @@ body{
 .comment-parallax{
     background-color:#604829;
     color:#fff;
-    position:absolute;
     font-size:24px;
     padding:15px;
     border-radius:10px;
 }
-.div-endereço{
-    text-align: left;
-    width:20%;
+.span-endereço{
+    position: relative;
+    top:100px;
     margin:0 auto;
+}
+.span-endereço-2{
+    padding:15px;
+    width:60%;
+    margin:0 auto;
+    position: relative;
+    bottom:0;
+}
+.parallax-3 .limita-largura{
+    margin-top: 170px;
+}
+.iframe-absolute{
+    width:925px;
+}
+.div-endereço{
+    text-align: center;
+    width:60%;
+    margin:0 auto;
+    position:relative;
 }
 .span-largura{
     width:25%;
@@ -148,4 +166,5 @@ body{
 .desenvolvedor{
     color:#c4a47c
 }
+
 
